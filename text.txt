@@ -1,0 +1,19 @@
+Steps to Push into GitHub
+
+1. cd your folder (Continuous-Delivery-Devops)
+2. git init  
+3. Create file as your required using the commend  (touch text.txt)
+4. git config user.email "annepuuday111@gmail.com"    
+5. To check weather email is correctly mapped or not use commend (git config user.email)
+6. git status 
+7. git add .
+8. git status
+9. git commit -m "first commit"
+10. git status 
+11. git remote -v
+12. git push
+13. git remote add origin then give your link copy from the GitHub repository (https://github.com/annepuuday/Continuous-Delivery-Devops.git) 
+14. git push
+15. git push --set-upstream origin master
+
+Then check your repository the file is added successfully        
